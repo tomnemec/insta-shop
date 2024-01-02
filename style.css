@@ -1,0 +1,146 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+}
+h5 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  color: #797979;
+}
+.bold {
+  font-weight: 700;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+.btn-back {
+  margin: 20px 0;
+  border: 2px solid #515152;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-back:hover {
+  background: #515152;
+  color: #fff;
+}
+.btn-changer {
+  border: 1px solid #515152;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-changer:hover {
+  scale: 1.1;
+}
+.product-section {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.product-section img {
+  width: 250px;
+  height: 350px;
+}
+.description-card {
+  position: absolute;
+  bottom: 10px;
+  background: #aaaaad18;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 20px;
+}
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 20px;
+}
+.amount {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+.price {
+  border-radius: 20px;
+  background: pink;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+.btn-shop {
+  margin-top: 20px;
+  padding: 3px 3px 3px 10px;
+  border: none;
+  border-radius: 20px;
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.1rem;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-shop:hover {
+  scale: 1.09;
+}
+.btn-shop span {
+  background: pink;
+  height: 100%;
+  width: 60px;
+  border-radius: 25px;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
